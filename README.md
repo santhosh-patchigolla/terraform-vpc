@@ -25,7 +25,7 @@ This is the root module to created VPC on AWS Cloud and this root module looks f
 Ref : https://github.com/coretech/terrafile
 
 
-# terraform commands with backend config in a environment specific file
+# terraform commands with backend config in a environment specific file as we are using the terrafile
  $ terraform init -backend-config=env-dev/dev-backend.tfvars
  $ terraform plan -var-file=env-dev/dev.tfvars
  $ terraform apply -auto-approve -var-file=env-dev/dev.tfvars
