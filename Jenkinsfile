@@ -1,6 +1,8 @@
 pipeline {
     agent any
-
+    options {
+        ansiColor('xterm')
+    }
     parameters {
         choice(name: 'ENV', choices: ['dev', 'prod'], description: 'Select The Environment')
         choice(name: 'ACTION', choices: ['apply', 'destroy'], description: 'Select Create or Destroy')        
