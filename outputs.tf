@@ -31,17 +31,17 @@ output "DEFAULT_VPC_CIDR" {
 }
 
 output "PRIVATE_HOSTED_ZONE_NAME" {
-    value  =  module.var.PRIVATE_HOSTED_ZONE_NAME
+    value  = module.vpc.PRIVATE_HOSTED_ZONE_NAME
 }
 
 output "PRIVATE_HOSTED_ZONE_ID" {
-    value  =  module.var.PRIVATE_HOSTED_ZONE_ID
+    value  = module.vpc.PRIVATE_HOSTED_ZONE_ID
 }
 
 output "PUBLIC_HOSTED_ZONE_NAME" {
-    value  =  module.var.PUBLIC_HOSTED_ZONE_NAME
+    value  = module.vpc.PUBLIC_HOSTED_ZONE_NAME
 }
 
 output "PUBLIC_HOSTED_ZONE_ID" {
-    value  =  module.var.PUBLIC_HOSTED_ZONE_ID
+    value  = module.vpc.PUBLIC_HOSTED_ZONE_ID
 }
