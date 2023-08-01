@@ -29,3 +29,19 @@ output "DEFAULT_VPC_ID" {
 output "DEFAULT_VPC_CIDR" {
     value  = module.vpc.DEFAULT_VPC_CIDR
 }
+
+output "PRIVATE_HOSTED_ZONE_NAME" {
+    value  =  module.var.PRIVATE_HOSTED_ZONE_NAME
+}
+
+output "PRIVATE_HOSTED_ZONE_ID" {
+    value  =  module.var.PRIVATE_HOSTED_ZONE_ID
+}
+
+output "PUBLIC_HOSTED_ZONE_NAME" {
+    value  =  module.var.PUBLIC_HOSTED_ZONE_NAME
+}
+
+output "PUBLIC_HOSTED_ZONE_ID" {
+    value  =  module.var.PUBLIC_HOSTED_ZONE_ID
+}
