@@ -45,3 +45,7 @@ output "PUBLIC_HOSTED_ZONE_NAME" {
 output "PUBLIC_HOSTED_ZONE_ID" {
     value  = module.vpc.PUBLIC_HOSTED_ZONE_ID
 }
+
+
+
+# passing the modules from here...
