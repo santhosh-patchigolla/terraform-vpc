@@ -14,3 +14,4 @@ variable "PUBLIC_HOSTED_ZONE_NAME" {}
 variable "PUBLIC_HOSTED_ZONE_ID" {}
 
 
+
