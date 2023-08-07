@@ -1,8 +1,8 @@
 @Library('roboshop-shared-library') _
 
-env.COMPONENT="terraform-vpc"
-// env.TFDIR ="mutable-infra"
-infra()    
+env.REPONAME="terraform-vpc"
+// env.TFDIR="mutable-infra"
+infra()  
 
 
 
