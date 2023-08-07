@@ -1,7 +1,7 @@
 @Library('roboshop-shared-library') _
 
 env.COMPONENT="terraform-vpc"
-env.TFDIR ="mutable-infra"
+// env.TFDIR ="mutable-infra"
 infra()    
 
 
