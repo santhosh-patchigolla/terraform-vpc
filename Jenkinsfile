@@ -1,7 +1,7 @@
 @Library('roboshop-shared-library') _
 
 env.REPONAME="terraform-vpc"
-env.TFDIR="mutable-infra"
+
 infra()  
 
 // pipeline {
